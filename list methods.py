@@ -1,0 +1,9 @@
+a=[0,9,8,7,6,5,4]
+a.append(10)
+print("append",a)
+a.insert(3,9)
+print("insert",a)
+del(a[4])
+print("delete",a)
+a.extend("hema")
+print("extend",a)
